@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="modele1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CDA/ResourcesProjetCDA/modele.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

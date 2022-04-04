@@ -1,0 +1,22 @@
+window_sizes 1920 1001 162 1752 876 71
+
+diagrams
+  classdiagram_ref 128012 // iteratio3
+    1845 872 100 A2 155 0
+  active  classdiagram_ref 134540 // iteration3
+    1752 876 100 A2 136 0
+end
+show_stereotypes
+selected operation_ref 147084 // getY
+open
+  class_ref 136844 // Controleur
+  class_ref 136972 // ControleurJeuNim
+  class_ref 137100 // ControleurPuissance4
+  class_ref 137228 // Ihm
+  class_ref 137356 // Joueur
+  class_ref 137484 // Tas
+  class_ref 137612 // Grille
+  class_ref 137740 // CoupNim
+  class_ref 137868 // CoupPuisssance
+end
+end

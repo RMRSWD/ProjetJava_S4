@@ -1,0 +1,21 @@
+window_sizes 1920 1001 429 1485 876 71
+
+diagrams
+  active  classdiagram_ref 128012 // iteratio3
+    1691 872 100 A2 0 0
+end
+show_stereotypes
+selected operation_ref 128908 // barreInitiale
+open
+  class_ref 128012 // Ihm
+  class_ref 128140 // Controleur
+  class_ref 128268 // Barre
+  class_ref 128396 // Joueurs
+  class_ref 128908 // IhmNim
+  class_ref 129420 // Grille
+  class_ref 129548 // JoueurNim
+  class_ref 129676 // JoueurPuissance
+  class_ref 130188 // JeuNim
+  class_ref 130316 // JeuPuissance4
+end
+end

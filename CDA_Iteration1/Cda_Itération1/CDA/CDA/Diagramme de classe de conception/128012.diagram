@@ -1,0 +1,53 @@
+format 213
+
+classcanvas 128012 class_ref 128012 // CoupNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 45 23 2000 177 145
+end
+classcanvas 128140 class_ref 128140 // Joueur
+  classdiagramsettings member_max_width 0 end
+  xyzwh 231 18 2000 147 163
+end
+classcanvas 128268 class_ref 128268 // Tas
+  classdiagramsettings member_max_width 0 end
+  xyzwh 516 25 2000 141 175
+end
+classcanvas 128396 class_ref 128396 // Ihm
+  classdiagramsettings member_max_width 0 end
+  xyzwh 595 263 2000 159 151
+end
+classcanvas 128652 class_ref 128652 // ControleurJeuNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 329 381 2000 139 199
+end
+classcanvas 129292 class_ref 128780 // Main
+  classdiagramsettings member_max_width 0 end
+  xyzwh 70 417 2000 123 209
+end
+relationcanvas 128780 relation_ref 128012 // <unidirectional association>
+  decenter_end 546
+  from ref 128396 z 2001 to ref 128652
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128908 relation_ref 128140 // <unidirectional association>
+  from ref 128652 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129036 relation_ref 128268 // <unidirectional association>
+  from ref 128652 z 2001 to ref 128140
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129164 relation_ref 128396 // <unidirectional association>
+  from ref 128652 z 2001 to ref 128268
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129420 relation_ref 128524 // <unidirectional association>
+  from ref 129292 z 2001 to ref 128652
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

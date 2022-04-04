@@ -1,0 +1,24 @@
+window_sizes 1920 1009 199 1716 963 0
+
+diagrams
+  active  classdiagram_ref 128002 // it3
+    1703 928 90 A1 336 0
+end
+show_stereotypes
+selected attribute_ref 130050 // Strategiejeu
+open
+  class_ref 128002 // Ihm
+  class_ref 128130 // StrategieJeu
+  class_ref 128258 // ControleurJeuNim
+  class_ref 128386 // ControleurJeuPuissance
+  class_ref 128514 // JoueurGeneral
+  class_ref 128642 // Plateau
+  class_ref 128770 // Coup
+  class_ref 128898 // CoupNim
+  class_ref 129026 // JoueurPuissance
+  class_ref 129154 // Tas
+  class_ref 129282 // CoupPuissance
+  class_ref 129410 // Grille
+  class_ref 129538 // JoueurNim
+end
+end

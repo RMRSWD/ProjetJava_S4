@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Cda_Itération1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/diagrammes.zip!/" />
+      <root url="jar://$PROJECT_DIR$/CDA.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

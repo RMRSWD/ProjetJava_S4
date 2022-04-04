@@ -1,0 +1,94 @@
+format 213
+
+classcanvas 128012 class_ref 136844 // Controleur
+  classdiagramsettings member_max_width 0 end
+  xyz 387 144 2000
+end
+classcanvas 128140 class_ref 136972 // ControleurJeuNim
+  classdiagramsettings member_max_width 0 end
+  xyz 613 370 2000
+end
+classcanvas 128268 class_ref 137100 // ControleurPuissance4
+  classdiagramsettings member_max_width 0 end
+  xyz 138 334 2000
+end
+classcanvas 128652 class_ref 137228 // Ihm
+  classdiagramsettings member_max_width 0 end
+  xyz 382 426 2000
+end
+classcanvas 129036 class_ref 137356 // Joueur
+  classdiagramsettings member_max_width 0 end
+  xyzwh 400 867 2000 183 245
+end
+classcanvas 129420 class_ref 137484 // Tas
+  classdiagramsettings member_max_width 0 end
+  xyz 788 630 2000
+end
+classcanvas 129676 class_ref 137612 // Grille
+  classdiagramsettings member_max_width 0 end
+  xyz 39 575 2000
+end
+classcanvas 130060 class_ref 137740 // CoupNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 727 865 2000 205 173
+end
+classcanvas 130188 class_ref 137868 // CoupPuisssance
+  classdiagramsettings member_max_width 0 end
+  xyzwh 113 847 2000 137 177
+end
+relationcanvas 128396 relation_ref 138380 // <generalisation>
+  from ref 128140 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128524 relation_ref 138508 // <generalisation>
+  decenter_begin 667
+  from ref 128268 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128780 relation_ref 138636 // <dependency>
+  from ref 128140 z 2001 to ref 128652
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128908 relation_ref 138764 // <dependency>
+  from ref 128268 z 2001 to ref 128652
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129164 relation_ref 138892 // <dependency>
+  from ref 128140 z 2001 to point 553 788
+  line 130572 z 2001 to ref 129036
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129292 relation_ref 139020 // <dependency>
+  decenter_end 152
+  from ref 128268 z 2001 to point 328 735
+  line 130700 z 2001 to ref 129036
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129548 relation_ref 139148 // <dependency>
+  from ref 128140 z 2001 to ref 129420
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129804 relation_ref 139276 // <dependency>
+  from ref 128268 z 2001 to ref 129676
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130316 relation_ref 139404 // <dependency>
+  decenter_end 43
+  from ref 128140 z 2001 to ref 130060
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130444 relation_ref 139532 // <dependency>
+  from ref 128268 z 2001 to ref 130188
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

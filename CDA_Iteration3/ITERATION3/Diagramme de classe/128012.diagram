@@ -1,0 +1,169 @@
+format 213
+
+classcanvas 128012 class_ref 128012 // Ihm
+  classdiagramsettings member_max_width 0 class_drawing_mode class drawing_language java end
+  xyzwh 46 275 2000 177 163
+end
+classcanvas 128268 class_ref 128140 // Controleur
+  classdiagramsettings member_max_width 0 class_drawing_mode class drawing_language java end
+  xyzwh 335 234 2000 183 139
+end
+classcanvas 128396 class_ref 128268 // Barre
+  classdiagramsettings member_max_width 0 class_drawing_mode class drawing_language java end
+  xyzwh 591 285 2000 197 159
+end
+classcanvas 128524 class_ref 128396 // Joueurs
+  classdiagramsettings member_max_width 0 class_drawing_mode class drawing_language java end
+  xyzwh 926 319 2000 187 141
+end
+classcanvas 128652 class_ref 128524 // CoupInvalideException
+  classdiagramsettings member_max_width 0 class_drawing_mode class drawing_language java end
+  xyzwh 1272 315 2000 259 137
+end
+classcanvas 129164 class_ref 128780 // IhmPuissance4
+  classdiagramsettings member_max_width 0 end
+  xyzwh 173 10 2000 129 195
+end
+classcanvas 129420 class_ref 128908 // IhmNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 41 9 2000 129 189
+end
+classcanvas 129932 class_ref 129036 // ControleurNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 305 11 2000 149 193
+end
+classcanvas 130188 class_ref 129164 // ControleurPuissance4
+  classdiagramsettings member_max_width 0 end
+  xyzwh 454 5 2000 177 203
+end
+classcanvas 130444 class_ref 129292 // Tas
+  classdiagramsettings member_max_width 0 end
+  xyzwh 635 7 2000 111 195
+end
+classcanvas 130572 class_ref 129420 // Grille
+  classdiagramsettings member_max_width 0 end
+  xyzwh 751 14 2000 141 245
+end
+classcanvas 130700 class_ref 129548 // JoueurNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 907 3 2000 147 235
+end
+classcanvas 130828 class_ref 129676 // JoueurPuissance
+  classdiagramsettings member_max_width 0 end
+  xyzwh 1056 1 2000 161 245
+end
+classcanvas 132236 class_ref 129804 // CoupInvalideNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 1220 13 2000 131 187
+end
+classcanvas 132364 class_ref 129932 // CoupInvalidePuissance4
+  classdiagramsettings member_max_width 0 end
+  xyzwh 1355 12 2000 221 181
+end
+classcanvas 132748 class_ref 130060 // Jouer
+  classdiagramsettings member_max_width 0 end
+  xyzwh 571 555 2000 95 163
+end
+classcanvas 133516 class_ref 130188 // JeuNim
+  classdiagramsettings member_max_width 0 end
+  xyzwh 276 811 2000 211 123
+end
+classcanvas 133644 class_ref 130316 // JeuPuissance4
+  classdiagramsettings member_max_width 0 end
+  xyzwh 874 814 2000 201 167
+end
+relationcanvas 129292 relation_ref 128140 // <realization>
+  decenter_end 795
+  from ref 129164 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129804 relation_ref 128396 // <realization>
+  from ref 129420 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130060 relation_ref 128524 // <realization>
+  from ref 129932 z 2001 to ref 128268
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131596 relation_ref 129036 // <realization>
+  from ref 130188 z 2001 to ref 128268
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131724 relation_ref 129164 // <realization>
+  from ref 130444 z 2001 to ref 128396
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131852 relation_ref 129292 // <realization>
+  from ref 130572 z 2001 to ref 128396
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131980 relation_ref 129420 // <realization>
+  from ref 130700 z 2001 to ref 128524
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132108 relation_ref 129548 // <realization>
+  from ref 130828 z 2001 to ref 128524
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132492 relation_ref 129676 // <realization>
+  from ref 132236 z 2001 to ref 128652
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132620 relation_ref 129804 // <realization>
+  from ref 132364 z 2001 to ref 128652
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132876 relation_ref 129932 // <dependency>
+  from ref 132748 z 2001 to point 1025 544
+  line 134668 z 2001 to point 1103 541
+  line 134796 z 2001 to ref 128652
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133004 relation_ref 130060 // <dependency>
+  decenter_begin 218
+  from ref 132748 z 2001 to ref 128524
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133132 relation_ref 130188 // <dependency>
+  decenter_begin 570
+  from ref 132748 z 2001 to ref 128396
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133260 relation_ref 130316 // <dependency>
+  from ref 132748 z 2001 to ref 128268
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133388 relation_ref 130444 // <dependency>
+  decenter_end 851
+  from ref 132748 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 134284 relation_ref 130828 // <generalisation>
+  decenter_end 944
+  from ref 133644 z 2001 to ref 132748
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 134412 relation_ref 130956 // <generalisation>
+  decenter_begin 851
+  decenter_end 944
+  from ref 133516 z 2001 to ref 132748
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

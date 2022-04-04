@@ -1,0 +1,40 @@
+format 213
+
+classcanvas 128012 class_ref 128012 // Joueur
+  simpleclassdiagramsettings end
+  xyz 61 236 2000
+end
+classcanvas 128140 class_ref 128140 // Joueur1
+  simpleclassdiagramsettings end
+  xyz 61 421 2000
+end
+classcanvas 128268 class_ref 128268 // Joueur2
+  simpleclassdiagramsettings end
+  xyz 262 404 2005
+end
+usecasecanvas 128652 usecase_ref 128012 // jouerUnePartie
+  xyzwh 300 20 3005 201 39 label_xy 341 25
+end
+usecasecanvas 128908 usecase_ref 128140 // JouerNparties
+  xyzwh 346 87 3005 127 43 label_xy 370 98
+end
+usecasecanvas 129164 usecase_ref 128268 // ConnaitreSoreFinal
+  xyzwh 342 152 3005 143 43 label_xy 357 164
+end
+relationcanvas 128396 relation_ref 128012 // <generalisation>
+  from ref 128268 z 2006 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128524 relation_ref 128140 // <generalisation>
+  from ref 128140 z 2001 to ref 128012
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+line 128780 --->
+  from ref 128012 z 3006 to ref 128652
+line 129036 --->
+  from ref 128012 z 3006 to ref 128908
+line 129292 --->
+  from ref 128012 z 3006 to ref 129164
+end
